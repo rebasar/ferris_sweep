@@ -62,7 +62,7 @@
             &kp DEL    &kp N4     &kp N5     &kp N6     &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ 0        │  7       │  8       │  9       │ {        │   │ }        │          │          │          │          │
-           &kp N0      &kp N7     &kp N8     &kp N9     &kp LBRC       &kp RBRC   &trans     SCR_UP     SCR_DN     &trans
+            &kp N0     &kp N7     &kp N8     &kp N9     &kp LBRC       &kp RBRC   &trans     SCR_UP     SCR_DN     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -79,7 +79,7 @@
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ /        │ F9       │ F10      │ F11      │ F12      │   │  &       │  _       │  +       │  │       │          │
-            &kp SLSH   &trans     &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
+            &kp FSLH   &trans     &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
