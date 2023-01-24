@@ -73,13 +73,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ ` ~      │ F1       │ F2       │ F3       │ F4       │   │ F5       │ F6       │ F7       │ F8       │ ~        │
-            &kp NUHS   &kp LBKT   &kp LBRC   &kp RBRC   &trans         &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp TILDE
+            &kp NUHS   &kp F1     &kp F2     &kp F3     &kp F4         &kp F5     &kp F6     &kp F7     &kp F8     &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │  `       │
             &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ /        │ F9       │ F10      │ F11      │ F12      │   │  &       │  _       │  +       │  │       │          │
-            &kp FSLH   &trans     &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
+            &kp FSLH   &kp F9     &kp F10    &kp F11    &kp F12        &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &lt 1 ESC      &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
