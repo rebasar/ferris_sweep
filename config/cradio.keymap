@@ -59,7 +59,7 @@
             &kp FSLH   &k TILDE   &kp INS    &kp NUHS   &kp LBKT       &kp RBKT   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ -        │  4       │  +       │  6       │ (        │   │ )        │ LEFT     │ UP       │ DOWN     │ RIGHT    │
-            &k MINUS   &kp N4     &kp PLUS   &kp N6     &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
+            &kp MINUS  &kp N4     &kp PLUS   &kp N6     &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  7       │  8       │  9       │ {        │   │ }        │          │          │          │          │
             &kp BSLH   &kp N7     &kp N8     &kp N9     &kp LBRC       &kp RBRC   &trans     SCR_UP     SCR_DN     &trans
