@@ -10,6 +10,8 @@
 #define HRMR(k1,k2,k3,k4) &ht RGUI k1  &ht RALT k2  &ht RSHFT k3  &ht RCTRL k4
 #define SCR_UP &kp K_SCROLL_UP
 #define SCR_DN &kp K_SCROLL_DOWN
+#define FWD K_FORWARD
+#define BACK K_BACK
 
 / {
     behaviors {
@@ -55,11 +57,11 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ /        │  ~       │ INSERT   │  `       │ [        │   │ ]        │ HOME     │ PG_UP    │ PG_DN    │ END      │
-            &kp FSLH   &kp TILDE  &kp INS    &kp NUHS   &kp LBKT       &kp RBKT   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
+        //│ /        │  ~       │ INSERT   │  DELETE  │ [        │   │ ]        │ HOME     │ PG_UP    │ PG_DN    │ END      │
+            &kp FSLH   &kp GRAVE  &kp INS    &kp DEL    &kp LBKT       &kp RBKT   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ -        │  4       │  +       │  6       │ (        │   │ )        │ LEFT     │ UP       │ DOWN     │ RIGHT    │
-            &kp MINUS  &kp N4     &kp PLUS   &kp N6     &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
+        //│ -        │  FORWARD │  +       │  BACK    │ (        │   │ )        │ LEFT     │ UP       │ DOWN     │ RIGHT    │
+            &kp MINUS  &kp FWD    &kp PLUS   &kp BACK   &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  7       │  8       │  9       │ {        │   │ }        │          │          │          │          │
             &kp BSLH   &kp N7     &kp N8     &kp N9     &kp LBRC       &kp RBRC   &trans     SCR_UP     SCR_DN     &trans
