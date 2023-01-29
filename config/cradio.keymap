@@ -56,7 +56,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ /        │  ~       │ INSERT   │  `       │ [        │   │ ]        │ HOME     │ PG_UP    │ PG_DN    │ END      │
-            &kp FSLH   &k TILDE   &kp INS    &kp NUHS   &kp LBKT       &kp RBKT   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
+            &kp FSLH   &kp TILDE  &kp INS    &kp NUHS   &kp LBKT       &kp RBKT   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ -        │  4       │  +       │  6       │ (        │   │ )        │ LEFT     │ UP       │ DOWN     │ RIGHT    │
             &kp MINUS  &kp N4     &kp PLUS   &kp N6     &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
