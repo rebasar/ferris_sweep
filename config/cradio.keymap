@@ -64,7 +64,7 @@
             &trans     &kp SV_AE  &kp SV_OA  &kp SV_OE  &kp LBKT       &kp RBKT   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ /        │  -       │  +       │  \       │ (        │   │ )        │ LEFT     │ UP       │ DOWN     │ RIGHT    │
-            &kp FSLH   &kp MINUS  &kp EQUAl  &kp BSLH   &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
+            &kp FSLH   &kp MINUS  &kp EQUAL  &kp BSLH   &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  ` ~     │  INSERT  │  DELETE  │ {        │   │ }        │          │          │          │          │
             &trans     &kp GRAVE  &kp INS    &kp DEL    &kp LBRC       &kp RBRC   &trans     SCR_UP     SCR_DN     &trans
