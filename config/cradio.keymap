@@ -12,6 +12,9 @@
 #define SCR_DN &kp K_SCROLL_DOWN
 #define FWD K_FORWARD
 #define BACK K_BACK
+#define SV_OE RA(P)
+#define SV_AE RA(Q)
+#define SV_OA RA(W)
 
 / {
     behaviors {
@@ -57,14 +60,14 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ /        │  ~       │ INSERT   │  DELETE  │ [        │   │ ]        │ HOME     │ PG_UP    │ PG_DN    │ END      │
-            &kp FSLH   &kp GRAVE  &kp INS    &kp DEL    &kp LBKT       &kp RBKT   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
+        //│          │  Ä       │  Å       │  Ö       │ [        │   │ ]        │ HOME     │ PG_UP    │ PG_DN    │ END      │
+            &trans     &kp SV_AE  &kp SV_OA  &kp SV_OE  &kp LBKT       &kp RBKT   &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ -        │  FORWARD │  +       │  BACK    │ (        │   │ )        │ LEFT     │ UP       │ DOWN     │ RIGHT    │
-            &kp MINUS  &kp FWD    &kp PLUS   &kp BACK   &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
+        //│ /        │  -       │  +       │  \       │ (        │   │ )        │ LEFT     │ UP       │ DOWN     │ RIGHT    │
+            &kp FSLH   &kp MINUS  &kp EQUAl  &kp BSLH   &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  7       │  8       │  9       │ {        │   │ }        │          │          │          │          │
-            &kp BSLH   &kp N7     &kp N8     &kp N9     &kp LBRC       &kp RBRC   &trans     SCR_UP     SCR_DN     &trans
+        //│          │  ` ~     │  INSERT  │  DELETE  │ {        │   │ }        │          │          │          │          │
+            &trans     &kp GRAVE  &kp INS    &kp DEL    &kp LBRC       &kp RBRC   &trans     SCR_UP     SCR_DN     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &lt 2 ESC  &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
