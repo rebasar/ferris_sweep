@@ -66,8 +66,8 @@
         //│ /        │  -       │  +       │  \       │ (        │   │ )        │ LEFT     │ UP       │ DOWN     │ RIGHT    │
             &kp FSLH   &kp MINUS  &kp EQUAL  &kp BSLH   &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  ` ~     │  INSERT  │  DELETE  │ {        │   │ }        │          │          │          │          │
-            &trans     &kp GRAVE  &kp INS    &kp DEL    &kp LBRC       &kp RBRC   &trans     SCR_UP     SCR_DN     &trans
+        //│          │          │          │          │ {        │   │ }        │ ?        │ _        │ +        │ |        │
+            &trans     &trans     &trans     &trans     &kp LBRC       &kp RBRC   &kp QMARK  &kp UNDER  &kp PLUS   &kp PIPE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &lt 2 ESC  &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -83,8 +83,8 @@
         //│ 1 !      │ 2 @      │ 3 #      │ 4 $      │ 5 %      │   │ 6 ^      │ 7 &      │ 8 *      │ 9 (      │  0 )     │
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9      &kp N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ F11      │          │          │          │          │   │  &       │  _       │  +       │  │       │ F12      │
-            &kp F11    &trans     &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &kp F12
+        //│ F11      │  ` ~     │  INSERT  │  DELETE  │          │   │          │          │          │          │ F12      │
+            &kp F11    &kp GRAVE  &kp INS    &kp DEL    &trans         &trans     &trans     &trans     &trans     &kp F12
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &lt 1 ESC      &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
