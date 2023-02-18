@@ -86,7 +86,7 @@
         //│ F11      │  ` ~     │  INSERT  │  DELETE  │          │   │          │          │          │          │ F12      │
             &kp F11    &kp GRAVE  &kp INS    &kp DEL    &trans         &trans     &trans     &trans     &trans     &kp F12
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &lt 1 ESC      &trans     &kc K_MENU
+                                             &trans     &lt 1 ESC      &trans     &kp K_MENU
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
