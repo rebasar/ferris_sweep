@@ -69,7 +69,7 @@
         //│          │  <-      │          │  ->      │ {        │   │ }        │ ?        │ _        │ +        │ |        │
             &trans     &kp K_BACK &trans  &kp K_FORWARD &kp LBRC       &kp RBRC   &kp QMARK  &kp UNDER  &kp PLUS   &kp PIPE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &trans         &lt 2 ESC  &trans
+                                             &kp K_MENU &trans         &lt 2 ESC  &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -86,7 +86,7 @@
         //│ F11      │  ` ~     │  INSERT  │  DELETE  │          │   │          │          │          │          │ F12      │
             &kp F11    &kp GRAVE  &kp INS    &kp DEL    &trans         &trans     &trans     &trans     &trans     &kp F12
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &lt 1 ESC      &trans     &trans
+                                             &trans     &lt 1 ESC      &trans     &kc K_MENU
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
