@@ -66,8 +66,8 @@
         //│ /        │  -       │  +       │  \       │ (        │   │ )        │ LEFT     │ UP       │ DOWN     │ RIGHT    │
             &kp FSLH   &kp MINUS  &kp EQUAL  &kp BSLH   &kp LPAR       &kp RPAR   &kp LARW   &kp UARW   &kp DARW   &kp RARW
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │ {        │   │ }        │ ?        │ _        │ +        │ |        │
-            &trans     &trans     &trans     &trans     &kp LBRC       &kp RBRC   &kp QMARK  &kp UNDER  &kp PLUS   &kp PIPE
+        //│          │  <-      │          │  ->      │ {        │   │ }        │ ?        │ _        │ +        │ |        │
+            &trans     &kp K_BACK &trans  &kp K_FORWARD &kp LBRC       &kp RBRC   &kp QMARK  &kp UNDER  &kp PLUS   &kp PIPE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &lt 2 ESC  &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
